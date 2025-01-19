@@ -2,7 +2,7 @@
 services:
   - type: web
     plan: free
-    name: Scorpion 
+    name: TepA 
     env: python
     buildCommand: pip install -U -r requirements.txt
     startCommand: python3 ser.py & python3 -m Tepthon 
